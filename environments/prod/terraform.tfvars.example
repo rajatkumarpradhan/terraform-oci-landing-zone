@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+tenancy_ocid   = "ocid1.tenancy.oc1..aaaaaaaa..."
+compartment_id = "ocid1.tenancy.oc1..aaaaaaaa..." # or a parent compartment OCID
+alert_email    = "you@example.com"

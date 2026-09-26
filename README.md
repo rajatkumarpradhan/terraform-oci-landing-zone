@@ -1,4 +1,4 @@
-# Terraform OCI Landing Zone
+<img src="assets/banner.svg" alt="terraform-oci-landing-zone" width="100%">
 
 > **Portfolio project** - modular, testable Terraform for an Oracle Cloud landing zone. Validated with `fmt`, `validate`, mocked `terraform test` and `tfsec` in CI. **Never applied to a live tenancy**: no OCI resources exist and nothing here spends money. Running `plan`/`apply` requires your own tenancy and credentials.
 
@@ -20,6 +20,10 @@ for real:
 Design decisions (private-by-default subnets, no SSH ingress without an
 explicit allow-list, one VCN per environment) are documented in
 [docs/architecture.md](docs/architecture.md) with a diagram.
+
+## Architecture at a glance
+
+<img src="assets/diagram.svg" alt="Architecture and workflow diagram" width="100%">
 
 ## Layout
 
